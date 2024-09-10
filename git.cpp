@@ -10,7 +10,7 @@ int main(){
     cin >> numero;
 
     for(int i = 1; i <= 10; i++){
-        cout << "La tabla de multiplicar del " << numero << " es " << " = " << numero * i << endl;
+        cout << "La tabla de multiplicar del " << numero << " es " << "= " << numero * i << endl;
     }
 
 

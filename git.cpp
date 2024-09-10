@@ -9,10 +9,12 @@ int main(){
     cout << "Ingrese un numero: ";
     cin >> numero;
 
-    for(int i = 1; i <= 10; i++){
+    if(numero <= 0){
+        cout << "Ingresa un numero mayor a 0."
+    }else {
+        for(int i = 1; i <= 10; i++){
         cout << "La tabla de multiplicar del " << numero << " es " << "= " << numero * i << endl;
     }
-
 
 
 
